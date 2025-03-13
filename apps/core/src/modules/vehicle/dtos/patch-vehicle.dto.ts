@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsDate, IsString } from 'class-validator';
+import { IsString } from 'class-validator';
 
 export class PatchVehicleDto {
   @IsString()
@@ -22,7 +22,7 @@ export class PatchVehicleDto {
   @ApiProperty()
   brand: string;
 
-  @IsDate()
+  @IsString()
   @ApiProperty()
   vehicle_year: Date;
 }
