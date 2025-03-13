@@ -4,7 +4,7 @@ services:
     container_name: api-core-info
     build:
       context: .
-      dockerfile: ./apps/core/Dockerfile
+      dockerfile: ./apps/core/Dockerfile.Local
     restart: unless-stopped
     command: >
         sh -c "npm run migrate && npm run seed:all && npm run start:dev core"
