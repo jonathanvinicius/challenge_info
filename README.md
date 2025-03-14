@@ -87,7 +87,6 @@ Os authGuards do NestJS são responsáveis por interceptar as requisições e ve
 
 **Autenticação e Usuários**<br>
 POST /users: Cadastro de usuário<br>
-
 POST /users/authentication: Autenticação de usuário<br>
 
 **Veículos**<br>
