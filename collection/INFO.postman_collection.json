@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "VEHICLE",
+			"name": "VEHICLES",
 			"item": [
 				{
 					"name": "Create Vehicle",
@@ -34,12 +34,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{basePath}}/vehicle",
+							"raw": "{{basePath}}/vehicles",
 							"host": [
 								"{{basePath}}"
 							],
 							"path": [
-								"vehicle"
+								"vehicles"
 							]
 						}
 					},
@@ -61,12 +61,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{basePath}}/vehicle",
+							"raw": "{{basePath}}/vehicles",
 							"host": [
 								"{{basePath}}"
 							],
 							"path": [
-								"vehicle"
+								"vehicles"
 							]
 						}
 					},
@@ -80,7 +80,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJraWQiOiI2Y2xram85Z004eGM1QVpIR2RtUlMwb3FSUkxCQjJRZ0pLcmp5NnFydXNvPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkNDU4YzRiOC1lMGUxLTcwYmItYWQzMS0wZmIwODZjYjUxOTEiLCJjb2duaXRvOmdyb3VwcyI6WyJBZG1pbiJdLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9Oc1huZ2xDMFQiLCJjbGllbnRfaWQiOiJpNzE3ZzBiamtuY2p2bGJwMzU1M2dtOTlmIiwib3JpZ2luX2p0aSI6Ijg4MjhhODdkLTdiZWUtNDUyOS1iMmI5LThmZTk4NDM2MGRkZSIsImV2ZW50X2lkIjoiNzdjZGQ1NTYtNTJmZS00YTViLWJiODAtYzY3NzJlYjUzOGE2IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MTgyOTgxNywiZXhwIjoxNzQxODMzNDE3LCJpYXQiOjE3NDE4Mjk4MTcsImp0aSI6IjIxNjQyZTZjLWM1NzctNDJiYy1iNzc1LTllNDc5MmI4NGMxMyIsInVzZXJuYW1lIjoiZDQ1OGM0YjgtZTBlMS03MGJiLWFkMzEtMGZiMDg2Y2I1MTkxIn0.R3sEJLJfXzLX5WNtHYmdLVs0WzsL5DmXpdxy9rvG7c9Gt5xQuaKdzSzlpsDC6uTMTkkQNAsV_r17viK1txjIcBX22tBMsMkTBqGOBgH2VLTxUKA-6QJ6uvoJ_Kk0rekww4IFpx97UIRY8YxmoZrnpnecgKF2ZyM8npQgq2oSEj2f_3y0ROGT9dUynDosu0hJto44VyxhXzWjHsKohQwJOFFvJVdgqpHp5AknEsuTeVrphHeSlUsmt_PRBg0NOJn_6OtunHlQdTANd8gO7BBwVpADCY6GZpmFLlDUK5Lqn00Pn_4gLPSlGOr0hItmq4lOWxfisKPn39nw5bmQBPfxnQ",
+									"value": "eyJraWQiOiI2Y2xram85Z004eGM1QVpIR2RtUlMwb3FSUkxCQjJRZ0pLcmp5NnFydXNvPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkNDU4YzRiOC1lMGUxLTcwYmItYWQzMS0wZmIwODZjYjUxOTEiLCJjb2duaXRvOmdyb3VwcyI6WyJBZG1pbiJdLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9Oc1huZ2xDMFQiLCJjbGllbnRfaWQiOiJpNzE3ZzBiamtuY2p2bGJwMzU1M2dtOTlmIiwib3JpZ2luX2p0aSI6ImU3YjE5MGFlLTdhM2QtNDg0OC1iY2QyLWMwOTk5ZWRkNmE0ZiIsImV2ZW50X2lkIjoiMjM4ZTYzMjctMDU1NC00OWU1LWJkYTYtMGZiZGY1ZjNmMmUxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MTk1NjMwMCwiZXhwIjoxNzQxOTU5ODk5LCJpYXQiOjE3NDE5NTYzMDAsImp0aSI6IjMyZjgzOTlhLTc2M2UtNGYyNC04OWM3LWViODdlZTdmOGNiYSIsInVzZXJuYW1lIjoiZDQ1OGM0YjgtZTBlMS03MGJiLWFkMzEtMGZiMDg2Y2I1MTkxIn0.YFbe798M0dFDfN3zRMZYH3Qve-TaO-NZZ834hO3f3PTfHcxR5M26yXM7p6wcHsRyUnGv9OpzmSYaluQUpWycaTBUpbGV2SJw5c-O3RFqQGbn13EfNlaC5LHS2yYr4J1b7ijBkXRazU5DnFkZve9LkA2kTMXabQVKn8nL078skR3aMVFwOkdHwKbu_Sa5krmfYp47beXvayqF4EFPZciI1grMfsL3YSVJT5afUAr0l7p3Maeda4EkcTl11WteaVkpmzHVPHD50rROG-tILDUguexz4uYXGefQtN0kjXJOIP7HlILYh0Vwn7Kxj89D8_8_il7E1et_uh4USWwPU8HiUw",
 									"type": "string"
 								}
 							]
@@ -88,12 +88,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{basePath}}/vehicle/1",
+							"raw": "{{basePath}}/vehicles/1",
 							"host": [
 								"{{basePath}}"
 							],
 							"path": [
-								"vehicle",
+								"vehicles",
 								"1"
 							]
 						}
@@ -103,11 +103,21 @@
 				{
 					"name": "Patch Vehicle",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJraWQiOiI2Y2xram85Z004eGM1QVpIR2RtUlMwb3FSUkxCQjJRZ0pLcmp5NnFydXNvPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkNDU4YzRiOC1lMGUxLTcwYmItYWQzMS0wZmIwODZjYjUxOTEiLCJjb2duaXRvOmdyb3VwcyI6WyJBZG1pbiJdLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9Oc1huZ2xDMFQiLCJjbGllbnRfaWQiOiJpNzE3ZzBiamtuY2p2bGJwMzU1M2dtOTlmIiwib3JpZ2luX2p0aSI6ImU3YjE5MGFlLTdhM2QtNDg0OC1iY2QyLWMwOTk5ZWRkNmE0ZiIsImV2ZW50X2lkIjoiMjM4ZTYzMjctMDU1NC00OWU1LWJkYTYtMGZiZGY1ZjNmMmUxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MTk1NjMwMCwiZXhwIjoxNzQxOTU5ODk5LCJpYXQiOjE3NDE5NTYzMDAsImp0aSI6IjMyZjgzOTlhLTc2M2UtNGYyNC04OWM3LWViODdlZTdmOGNiYSIsInVzZXJuYW1lIjoiZDQ1OGM0YjgtZTBlMS03MGJiLWFkMzEtMGZiMDg2Y2I1MTkxIn0.YFbe798M0dFDfN3zRMZYH3Qve-TaO-NZZ834hO3f3PTfHcxR5M26yXM7p6wcHsRyUnGv9OpzmSYaluQUpWycaTBUpbGV2SJw5c-O3RFqQGbn13EfNlaC5LHS2yYr4J1b7ijBkXRazU5DnFkZve9LkA2kTMXabQVKn8nL078skR3aMVFwOkdHwKbu_Sa5krmfYp47beXvayqF4EFPZciI1grMfsL3YSVJT5afUAr0l7p3Maeda4EkcTl11WteaVkpmzHVPHD50rROG-tILDUguexz4uYXGefQtN0kjXJOIP7HlILYh0Vwn7Kxj89D8_8_il7E1et_uh4USWwPU8HiUw",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plate\": \"ONH-4175\",\n    \"chassis\": \"9093\",\n    \"renavam\": \"323323\",\n    \"model\": \"Golf\",\n    \"brand\": \"Volwagen - TSI\",\n    \"vehicle_year\": \"2024-09-09\"\n}",
+							"raw": "{\n    \"plate\": \"ONH-4175\",\n    \"chassis\": \"12122323442424225\",\n    \"renavam\": \"32332456776\",\n    \"model\": \"Gol - TSI\",\n    \"brand\": \"Volwagen\",\n    \"vehicle_year\": \"2003-09-09\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -115,13 +125,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{basePath}}/vehicle/1",
+							"raw": "{{basePath}}/vehicles/2",
 							"host": [
 								"{{basePath}}"
 							],
 							"path": [
-								"vehicle",
-								"1"
+								"vehicles",
+								"2"
 							]
 						}
 					},
@@ -130,6 +140,16 @@
 				{
 					"name": "Delete Vehicle",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJraWQiOiI2Y2xram85Z004eGM1QVpIR2RtUlMwb3FSUkxCQjJRZ0pLcmp5NnFydXNvPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkNDU4YzRiOC1lMGUxLTcwYmItYWQzMS0wZmIwODZjYjUxOTEiLCJjb2duaXRvOmdyb3VwcyI6WyJBZG1pbiJdLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9Oc1huZ2xDMFQiLCJjbGllbnRfaWQiOiJpNzE3ZzBiamtuY2p2bGJwMzU1M2dtOTlmIiwib3JpZ2luX2p0aSI6ImU3YjE5MGFlLTdhM2QtNDg0OC1iY2QyLWMwOTk5ZWRkNmE0ZiIsImV2ZW50X2lkIjoiMjM4ZTYzMjctMDU1NC00OWU1LWJkYTYtMGZiZGY1ZjNmMmUxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MTk1NjMwMCwiZXhwIjoxNzQxOTU5ODk5LCJpYXQiOjE3NDE5NTYzMDAsImp0aSI6IjMyZjgzOTlhLTc2M2UtNGYyNC04OWM3LWViODdlZTdmOGNiYSIsInVzZXJuYW1lIjoiZDQ1OGM0YjgtZTBlMS03MGJiLWFkMzEtMGZiMDg2Y2I1MTkxIn0.YFbe798M0dFDfN3zRMZYH3Qve-TaO-NZZ834hO3f3PTfHcxR5M26yXM7p6wcHsRyUnGv9OpzmSYaluQUpWycaTBUpbGV2SJw5c-O3RFqQGbn13EfNlaC5LHS2yYr4J1b7ijBkXRazU5DnFkZve9LkA2kTMXabQVKn8nL078skR3aMVFwOkdHwKbu_Sa5krmfYp47beXvayqF4EFPZciI1grMfsL3YSVJT5afUAr0l7p3Maeda4EkcTl11WteaVkpmzHVPHD50rROG-tILDUguexz4uYXGefQtN0kjXJOIP7HlILYh0Vwn7Kxj89D8_8_il7E1et_uh4USWwPU8HiUw",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"body": {
@@ -142,12 +162,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{basePath}}/vehicle/1",
+							"raw": "{{basePath}}/vehicles/1",
 							"host": [
 								"{{basePath}}"
 							],
 							"path": [
-								"vehicle",
+								"vehicles",
 								"1"
 							]
 						}
